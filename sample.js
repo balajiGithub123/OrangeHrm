@@ -86,8 +86,6 @@ test.page('https://orangehrm-demo-6x.orangehrmlive.com/')
         await t.expect(check[i].exists).ok()
  }
    //Checking Click “Baseball” and “Basketball” check boxes, then click on “Save”. Then click “Jobs” on topnav and then again click “Personal Details” on topnav. Scroll down to “Preferences” section again and verify that “Baseball” and “Basketball” are checked.
-   await t.hover(baseBall)
-   await t.hover(basketBall)
    await t.click(baseBall)
    await t.click(basketBall)
    await t.click(sportSavebutton)
