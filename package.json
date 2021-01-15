@@ -1,0 +1,15 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balaji",
+  "license": "ISC",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
